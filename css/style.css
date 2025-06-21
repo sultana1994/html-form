@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/*
+.css-flex-section{
+    width: 100%;
+    margin-top: 100px;
+
+}
+.main-box{
+    width: 80%;
+    border: 5px solid darkblue;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+   flex-direction: row-reverse;
+   flex-direction: column;
+   flex-direction: row;
+
+   justify-content: space-around;
+   justify-content: space-between;
+   justify-content: space-evenly;
+   justify-content: flex-end;
+
+}  
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    line-height: 100PX;
+    
+}
+.box-1{
+    background-color: blue;
+    order: 2;
+    align-self: center;
+}
+.box-2{
+    background-color: rgb(52, 239, 5);
+    order: 3;
+     
+}
+.box-3{
+      background-color: rgb(243, 7, 7);
+      order: 1;
+     
+}*/
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu-box{
+    display: flex;
+    align-items: center;
+}
+
+.logo,.btns{
+    flex-basis: 20%;
+}
+
+.logo a img{
+    width: 175px;
+}
+.menu{
+    flex-basis: 60%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+
+.btns button{
+    padding: 8px 20px;
+    background-color: #0e72cc;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #0e72cc;
+}
